@@ -12,10 +12,9 @@ public class EmployeeData {
 		this.empSalary = empSalary;
 	}
 
-//	@Override
-//	public String toString() {
-//		return "EmployeeData [empId=" + empId + ", empName=" + empName + ", empSalary=" + empSalary + "]";
-//	}
+	@Override
+	public String toString() {
+		return "EmployeeData [empId=" + empId + ", empName=" + empName + ", empSalary=" + empSalary + "]";
+	}
 
 }
-
